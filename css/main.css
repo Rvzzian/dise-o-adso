@@ -1,3 +1,44 @@
 *{
-    background-color: rgb(30, 135, 196);
+    margin: auto;
 }
+
+.MenuPrincipal{
+    background-color: rgb(0, 0, 0);
+    height: auto;
+  
+}
+.Encabezado{
+   
+    background-image: url(https://coins-colombia.com/wp-content/uploads/2023/03/4799410.jpg);
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, repeat-y;
+}
+
+
+.Encabezado nav h1{
+    margin-left: 8%;  
+    font-family: georgia;
+    color: white;
+
+  }
+  .Encabezado nav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .Encabezado nav ul{
+    padding-left: 17%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .Encabezado nav ul li{
+    padding-top: 10%;
+    padding-bottom: 9%;
+    padding-left: 0px;
+    padding-right: 20%;
+
+  }
