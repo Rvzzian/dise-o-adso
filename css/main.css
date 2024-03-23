@@ -39,6 +39,10 @@
   color: #fff;
   } 
 
+  .Encabezado nav ul li:hover {
+    background-color: #0056b3;
+  }
+
 
 .Seccion{
   background-image: url("https://coins-colombia.com/wp-content/uploads/2023/03/4799410.jpg");
