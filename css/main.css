@@ -85,10 +85,15 @@ h6{
 }
 
 .contenido_principal{
-  background-color: white;
+  background-color: black;
   padding: 2rem;
   text-align: center;
 }
+.contenido_principal h2{
+  color: white;
+
+}
+
 
 .H_contenidoP{
   display: flex; 
@@ -159,4 +164,57 @@ textarea {
   background-color: #0056b3;
 }
 
+
+.contenedor_dispositivas {
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%; 
+  padding:0 auto;
+  
+}
+
+.diapositivas {
+  height: 80vh;
+  display: flex;
+  transition: transform 0.5s ease;
+
+}
+
+.diapositiva1,.diapositiva2 ,.diapositiva3  {
+  flex: 0 0 100%; 
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+
+button {
+  margin-top: 10px;
+}
+
+.sig, .ant {
+  cursor: pointer;
+}
+.diapositiva1{
+  background-color: blue;
+}
+.ambos_img_texto{
+  display: flex; 
+  height: 100vh; 
+}
+.img{
+  width: 90%;
+}
+.img,.texto{
+  flex: 1; 
+
+  padding: 20px; 
+}
+
+.diapositiva2{
+  background-color: red;
+}
+.diapositiva3{
+  background-color: yellow;
+}
 
